@@ -1,0 +1,269 @@
+.container{
+    width: 100vw;
+    height: auto;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 0;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+}
+
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+    .headText{
+        font-size: 3.7vw;
+        font-weight: 700;
+        font-style: oblique;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #12182b;
+    }
+
+    .bodyContainer{
+        width: 80vw;
+        height: 30vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1vw;
+    }
+
+    .span{
+        width: 18vw;
+        height: 0.3vw;
+        background-color: aqua;
+        margin-top: 2vh;
+    }
+
+    .bodyText{
+        word-spacing: 0.2vw;
+        font-size: 1.4vw;
+        font-weight: 550;
+        color: #12182b;
+        opacity: 0.9;
+    }
+}
+
+.skillSection{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 25vh;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #12182b;
+    position: relative;
+    right: 10vw;
+    gap: 8vh;
+
+    .skillDetails{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); // 4 items per row
+        grid-gap: 2vw; // Gap between grid items
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+    .cards{
+        width: 20vw;
+        height: 30vh;
+        background-color: #292f42;
+        text-align: center;
+        gap: 1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1vw;
+        box-shadow: 2px 0px 2px 2px #504b4b;
+        transition: transform 300ms ease-in; 
+    }
+
+    .cards:hover{
+        border: 1px solid #69fab4;
+        transform: scale(0.9);
+    }
+
+    .skillText{
+        color: #ffff;
+        font-weight: 600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+.expertContainer{
+    height: 200vh;
+    width: 100vw;
+    margin-top: 0vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    position: relative;
+    right: 10vw;
+    top: 5vh;
+    gap: 8vh;
+
+    .expertCards{
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10vh;
+        gap: 4vh;
+    }
+
+    .expertText{
+        color: transparent;
+        background-image: linear-gradient(to bottom,white 60%, #12182b 40%); /* Create a gradient */
+        background-clip: text;
+        position: relative;
+        bottom: 11vh;  
+        font-size: 3.8vw;
+        font-weight: 700;
+        font-style: oblique;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index:0;
+    }
+}
+
+.cardOne{
+    display: flex;
+    gap: 3vw;
+
+    span{
+        width: 6vw;
+        height: 7.3svh;
+        text-align: center;
+        font-size: 1.8vw;
+        font-weight: 500;
+        font-style: oblique;
+        background-color: #12182b;
+        color: #fff;
+        font-family: 
+        'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        left: 4vw;
+        top: 0.77vh;
+    }
+
+    .vertical {
+        border: none;
+        border-left: 1px solid black; /* Adjust the color and style as needed */
+        height: 43vh; /* Set the height of the vertical line */
+        margin-top: 12vh; /* Ensure no margin */
+    }
+    .vertical_2{
+        border: none;
+        border-left: 1px solid black; /* Adjust the color and style as needed */
+        height: 29vh; /* Set the height of the vertical line */
+        margin-top: 12vh; /* Ensure no margin */
+    }
+    .vertical_3{
+        border: none;
+        border-left: 1px solid black; /* Adjust the color and style as needed */
+        height: 36vh; /* Set the height of the vertical line */
+        margin-top: 12vh; /* Ensure no margin */
+    }
+    .vertical_4{
+        border: none;
+        border-left: 1px solid black; /* Adjust the color and style as needed */
+        height: 32vh; /* Set the height of the vertical line */
+        margin-top: 12vh; /* Ensure no margin */
+    }
+}
+
+.glow{
+    position: absolute;
+    left: 30.3vw;
+    top: 10vh;
+    border: 1px solid #FF4F00;
+    background-color: #FF4F00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #FF4F00; /* Initial glow effect */
+    animation: glow 1.5s infinite alternate;
+
+    @keyframes glow {
+        from { box-shadow: 0 0 10px 5px #f0720b; }
+        to { box-shadow: 0 0 20px 10px #f0720b; }
+    }
+}
+
+.glow2{
+    position: absolute;
+    left: 30.3vw;
+    top: 70vh;
+    border: 1px solid #FF4F00;
+    background-color: #FF4F00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #FF4F00; /* Initial glow effect */
+    animation: glow 1.5s infinite alternate;
+
+    @keyframes glow {
+        from { box-shadow: 0 0 10px 5px #f0720b; }
+        to { box-shadow: 0 0 20px 10px #f0720b; }
+    }
+}
+
+.glow3{
+    position: absolute;
+    left: 30.3vw;
+    top: 115vh;
+    border: 1px solid #FF4F00;
+    background-color: #FF4F00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #FF4F00; /* Initial glow effect */
+    animation: glow 1.5s infinite alternate;
+
+    @keyframes glow {
+        from { box-shadow: 0 0 10px 5px #f0720b; }
+        to { box-shadow: 0 0 20px 10px #f0720b; }
+    }
+}
+
+.glow4{
+    position: absolute;
+    left: 30.3vw;
+    top: 170vh;
+    border: 1px solid #FF4F00;
+    background-color: #FF4F00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #FF4F00; /* Initial glow effect */
+    animation: glow 1.5s infinite alternate;
+
+    @keyframes glow {
+        from { box-shadow: 0 0 10px 5px #f0720b; }
+        to { box-shadow: 0 0 20px 10px #f0720b; }
+    }
+} 
+
+.miniCard{
+    width: 50vw;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+    .freeText{
+        font-size: 2.1vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+    }
+
+    .bodyText{
+        font-size: 1.1vw;
+        font-weight: 550;
+        color: #12182b;
+        opacity: 0.9;
+    }
+}
+
