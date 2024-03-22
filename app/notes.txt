@@ -1,0 +1,9 @@
+when debugging your code i found the following issues
+
+
+1.the app router uses filesytem therefore there should be a page.js file in every folder even if it serves as a single folder or parent folder for other sub folder/pages 
+2.the href name is case-sensitive therefore it should be the same as the folder name for the page
+
+3.and also kindly know that the app folder is the main folder for the project therefore and therefore serve as the landing page for localhost:3000 and it owns both the layout and the page.js which which ain't in any children folder of the app buh rather a direct children
+so if you want to move to any page with in the app folder firstly bring "/foldername/incasesubfoldername/incasetheresanothersubfolder"
+
