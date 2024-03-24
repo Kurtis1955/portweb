@@ -46,8 +46,35 @@ const Projects_build = () => {
                 App <br /> Development
               </h2>
             </div>
+
+            <div className="flex flex-col gap-2">
+              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
+                <IoLogoAndroid color="green" size={25} /> Android App{" "}
+              </span>
+
+              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
+                <IoLogoApple color="black" size={25} /> IOS App{" "}
+              </span>
+
+              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
+                <SiReact color="LIGHTBLUE" size={25} /> React Native{" "}
+              </span>
+
+              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
+                <SiFlutter color="LIGHTBLUE" size={25} /> Flutter{" "}
+              </span>
+
+
+              <button
+                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
+          px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
+              >
+                Read More <RiArrowRightLine />
+              </button>
+            </div>
           </div>
-    </div>
+
+          </div>
     </section>
     </div>
   )
