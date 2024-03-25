@@ -84,6 +84,7 @@ const ServicesRendered= () => {
            </button>
          </div>
        </div>
+       
 
        <div className="w-[28vw] mb-6 shadow p-10 rounded-xl pl-4 ">
          <div className="flex items-center gap-4 mb-6 ">
