@@ -48,7 +48,7 @@ const ServicesRendered= () => {
 
            <button
              className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-       px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
+               px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
            >
              Read More <RiArrowRightLine />
            </button>
