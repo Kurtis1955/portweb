@@ -59,7 +59,7 @@ const About_me = () => {
   return (
     <div className={style.container}>
       <div className={style.aboutSection}>
-        <Typography variant='h3'className={style.headText}>About</Typography>
+        <Typography variant='h5'className={style.headText}>About</Typography>
         <div className={style.bodyContainer}>
           <span className={style.span}></span>
           <Typography variant='body2' className={style.bodyText}>
