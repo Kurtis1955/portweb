@@ -16,7 +16,7 @@
     gap: 1vh;
 
     .headText{
-        font-size: 3.7vw;
+        font-size: 2.5vw;
         font-weight: 700;
         font-style: oblique;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,12 +36,12 @@
         width: 18vw;
         height: 0.3vw;
         background-color: aqua;
-        margin-top: 2vh;
+        margin-top: 1vh;
     }
 
     .bodyText{
         word-spacing: 0.2vw;
-        font-size: 1.4vw;
+        font-size: 1vw;
         font-weight: 550;
         color: #12182b;
         opacity: 0.9;
@@ -51,8 +51,8 @@
 .skillSection{
     height: 100vh;
     width: 100vw;
-    margin-top: 25vh;
-    padding-top: 15vh;
+    margin-top: 15vh;
+    padding-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
