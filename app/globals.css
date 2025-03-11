@@ -6,6 +6,44 @@ body {
   overflow-x: hidden;
 }
 
+#services {
+  position: relative;
+  font-weight: 700;
+  font-size: 2.5em;
+
+  font-family: Poppins-SemiBold;
+  margin-bottom: 0.2em;
+}
+
+#services::before {
+  content: "Services";
+  -webkit-text-stroke: 2px black;
+
+  font-size: 1.7em !important;
+  position: absolute;
+
+  bottom: 0px;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+ z-index:42;
+}
+
+/* #serviceText {
+  position: relative;
+  font-weight: 700;
+  font-size: 2.5em;
+
+  font-family: Poppins-SemiBold;
+  margin-bottom: 0.2em;
+}
+
+#serviceText::before {
+  content: "Service";
+  -webkit-text-stroke: 2px black;
+
+  font-size: 1.7em !important;
+  position: absolute; */
+
 /* 
 :root {
   --foreground-rgb: 0, 0, 0;
