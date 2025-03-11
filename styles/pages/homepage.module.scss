@@ -1,23 +1,25 @@
 .mainContainer{
     height: auto;
-    width: 100vw;
+    width: 100%;
+    padding-left:6%;
+    padding-right:6%;
+    padding-top:8%;
+    padding-bottom:8%;
     background-color: #ffff;
     overflow-x: hidden;
     display: flex;
     flex-direction: row;
-    align-items: center;
-
 }
 
 .personalContainer{
     background-color: #ffff;
-    width: 50vw;
-    height: 100vh;
+    width: 70%;
+    height:auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 10vw;
+    // padding-left: 10vw;
     gap: 2vh;
 
     .nameBox{
@@ -36,19 +38,19 @@
     }
 
     p{
-        color: #12182b;
-        width: 30vw;
+        color: "#12182b";
+        width: 40vw;
         height: auto;
         word-spacing: 0.2vw;
-
+        padding-bottom:20px;
     }
 
     .talk{
         width: 8vw;
-        height: 8vh;
+        height: 6vh;
         border: none;
-        border-radius: 1vw;
-        font-size: 1.2vw;
+        border-radius: 10px;
+        font-size: 1vw;
         font-weight: 600;
         font-style: oblique;
         background-color: #12182b;
@@ -86,17 +88,18 @@
 }
 
 .profileImageBox{
-    width: 50vw;
-    height: 100vh;
+    width: 30%;
+    height: auto;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: -5vw;
+    align-items: start;
+    justify-content: start;
+    // background-color: red;
+    // padding-left: -5vw;
 }
 
 .profileImage{
-    width : 35vw;
-    height: 80vh;
+    width : 30rem;
+    height: 30rem;
     border-radius: 10vw 0vw 10vw 0vw;
-    margin-top: -5vh;
+    // margin-top: -5vh;
 }

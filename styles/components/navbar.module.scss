@@ -4,7 +4,9 @@
     justify-content: center;
     gap: 20vw;
     width: 100vw;
-    height: 10vh;
+    height: auto;
+    padding-top:1%;
+    padding-bottom:1%;
     background-color: #12102b;
     margin-top: -1vh;
     position: -webkit-sticky;
@@ -27,14 +29,14 @@
 
     li{
         list-style-type: none;
-        font-size: 1.3vw;
+        font-size: 1.1vw;
         
     }
 }
 
 .navlink{
     color: #ffff;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-weight: 550;
     text-decoration: none;   
 }
