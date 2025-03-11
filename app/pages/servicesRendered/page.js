@@ -20,11 +20,11 @@ const ServicesRendered= () => {
      </h1>
 
      <div className="  w-[100%] grid gap-0 grid-cols-3 justify-center">
-       <div className="w-[28vw] mb-6 shadow p-10 rounded-xl pl-4 ">
+       <div className="w-[28vw] mb-6 shadow p-10 rounded-xl pl-4 flex flex-col gap-4 ">
          <div className="flex items-center gap-4 mb-6 ">
            <FaMobileAlt size={62} color="#02007f" />{" "}
            <h2 className="text-2xl font-[700]">
-             App <br /> Development
+             Mobile App <br /> Development
            </h2>
          </div>
 
@@ -41,9 +41,9 @@ const ServicesRendered= () => {
              <SiReact color="LIGHTBLUE" size={25} /> React Native{" "}
            </span>
 
-           <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
+           {/* <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
              <SiFlutter color="LIGHTBLUE" size={25} /> Flutter{" "}
-           </span>
+           </span> */}
 
 
            <button

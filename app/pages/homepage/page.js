@@ -20,9 +20,9 @@ const HomePage = () => {
               
            </div> 
            
-           <p className={style.detailBox}>I develop stuffs for the WEB and MOBILE platforms.
-              Need an expert in this technological field, 
-              don't hesitate to reach out. 
+           <p className={style.detailBox}>I develop innovative solutions for WEB and MOBILE platforms, crafting seamless user experiences.
+Need an expert in this technological field? I'm here to bring your ideas to life.
+Don't hesitate to reach out and let's build something amazing together! 🚀
            </p>
            <Button className={style.talk}>Let's Vibe</Button>
         </div>

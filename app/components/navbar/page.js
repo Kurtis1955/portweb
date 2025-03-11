@@ -12,7 +12,7 @@ const Navbar = () => {
 
       <div className={style.navlink_Container}>
         <li>
-          <Link className={style.navlink} href="/">HOME</Link>
+          <Link className={style.navlink} href="/pages/homepage">HOME</Link>
         </li>
         <li>
           <Link className={style.navlink} href="/pages/about">ABOUT</Link>
