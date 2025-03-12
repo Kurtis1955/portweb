@@ -104,22 +104,22 @@
     align-items: flex-start;
     background-color: #fff;
     gap: 2rem;
-    margin-top: -3rem;
+    // margin-top: -3rem;
 
     .expertCards{
-        width: 80vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         // margin-top: -8rem;
-        gap: 4vh;
+        gap: 3rem;
     }
 
     .expertText{
         color: transparent;
         background-image: linear-gradient(to bottom,white 60%, #12182b 40%); /* Create a gradient */
         background-clip: text;
+        margin-top:5rem;
         // position: relative;
         // bottom: 6rem;  
         font-size: 3.5rem;
@@ -131,9 +131,12 @@
 }
 
 .cardOne{
+    width: 100%;
     display: flex;
     align-items:flex-start;
+    justify-content:center;
     gap: 3rem;
+    background-color:gray;
 
     span{
         width: 6vw;
@@ -147,33 +150,27 @@
         color: #fff;
         font-family: 
         'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        // position: relative;
-        // left: 4vw;
-        // top: 0.77vh;
     }
 
     .vertical {
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 30rem; /* Set the height of the vertical line *//* Ensure no margin */
+        height: 20rem; /* Set the height of the vertical line *//* Ensure no margin */
     }
     .vertical_2{
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 29vh; /* Set the height of the vertical line */
-        margin-top: 12vh; /* Ensure no margin */
+        height: 12rem; /* Set the height of the vertical line */ /* Ensure no margin */
     }
     .vertical_3{
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 36vh; /* Set the height of the vertical line */
-        margin-top: 12vh; /* Ensure no margin */
+        height: 18rem; /* Set the height of the vertical line */ /* Ensure no margin */
     }
     .vertical_4{
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 32vh; /* Set the height of the vertical line */
-        margin-top: 12vh; /* Ensure no margin */
+        height: 15rem; /* Set the height of the vertical line *//* Ensure no margin */
     }
 }
 
@@ -242,20 +239,19 @@
 } 
 
 .miniCard{
-    width: 50vw;
-    margin-top: 1vh;
+    // width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    gap: 2rem;
 
     .freeText{
-        font-size: 2.1vw;
+        font-size: 2.1rem;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: 500;
     }
 
     .bodyText{
-        font-size: 1.1vw;
+        font-size: 1.1rem;
         font-weight: 550;
         color: #12182b;
         opacity: 0.9;
