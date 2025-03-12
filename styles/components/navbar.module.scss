@@ -1,12 +1,12 @@
 .navContainer{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20vw;
-    width: 100vw;
-    height: auto;
+    justify-content: space-between;
+    width: 100%;
     padding-top:1%;
     padding-bottom:1%;
+    padding-left:8%;
+    padding-right:8%;
     background-color: #12102b;
     margin-top: -1vh;
     position: -webkit-sticky;
@@ -36,7 +36,7 @@
 
 .navlink{
     color: #ffff;
-    font-size: 1.1vw;
+    font-size: 1.1rem;
     font-weight: 550;
     text-decoration: none;   
 }
@@ -46,8 +46,11 @@
 }
 
 .contactLink{
-    width: 10vw;
-    height: 5vh;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    
     border-radius: 2vw 0vh 2vw 0vh;
     background-color: #69fab4;
     display: flex;
@@ -57,7 +60,7 @@
 
 .contact{
     color: #000;
-    font-size: 1.3vw;
+    font-size: 1.1rem;
     font-weight: 550;
     text-decoration: none;
 }
