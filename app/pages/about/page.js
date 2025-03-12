@@ -115,7 +115,7 @@ const About_me = () => {
             <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]" />
             </div>
 
-            <div className='pt-4 flex flex-col items-center justify-center gap-4'>
+            <div className='pt-4 flex flex-col items-center justify-start gap-4'>
             <FaCircle size={30} color={"#FF4F00"} className={style.glow} />
             <hr className={style.vertical} />
             </div>
@@ -152,7 +152,7 @@ const About_me = () => {
             <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]"/>
             </div>
 
-            <div className='pt-4 flex flex-col items-center justify-center gap-4'>
+            <div className='pt-4 flex flex-col items-start justify-start gap-4'>
               <FaCircle size={30} color={"#FF4F00"} className={style.glow2} />
               <hr className={style.vertical_2} />
             </div>
@@ -186,7 +186,7 @@ const About_me = () => {
             <span>2023</span>
             <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]" />
           </div>
-          <div className='pt-4 flex flex-col items-center justify-center gap-4'>
+          <div className='pt-4 flex flex-col items-center justify-start gap-4'>
             <FaCircle size={30} color={"#FF4F00"} className={style.glow3} />
             <hr className={style.vertical_3} />
           </div>  
@@ -220,9 +220,9 @@ const About_me = () => {
           <div className={style.cardOne}>
             <div className="flex items-center ">
             <span>2023</span>
-            <BiSolidRightArrow size={53} color={"#12182b"} className="ml-[-0.9rem]" />
+            <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]" />
             </div>
-            <div className='pt-4 flex flex-col items-center justify-center gap-4'>
+            <div className='pt-4 flex flex-col items-center justify-start gap-4'>
               <FaCircle size={30} color={"#FF4F00"} className={style.glow4} />
             <hr className={style.vertical_4} />
             </div>
