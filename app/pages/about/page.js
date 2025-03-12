@@ -112,7 +112,7 @@ const About_me = () => {
           <div className={style.cardOne}>
             <div className="flex items-center ">
             <span>2022</span>
-            <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.8rem]" />
+            <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]" />
             </div>
 
             <div className='pt-4 flex flex-col items-center justify-center gap-4'>
@@ -147,10 +147,15 @@ const About_me = () => {
           </div>
 
           <div className={style.cardOne}>
+            <div className="flex items-center ">
             <span>2022</span>
-            <BiSolidRightArrow size={53} color={"#12182b"} />
-            <FaCircle size={30} color={"#FF4F00"} className={style.glow2} />
-            <hr className={style.vertical_2} />
+            <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]"/>
+            </div>
+
+            <div className='pt-4 flex flex-col items-center justify-center gap-4'>
+              <FaCircle size={30} color={"#FF4F00"} className={style.glow2} />
+              <hr className={style.vertical_2} />
+            </div>
             <div className={style.sepCont}>
               <div className={style.miniCard}>
                 <Typography variant="h4" className={style.freeText}>
@@ -177,10 +182,14 @@ const About_me = () => {
           </div>
 
           <div className={style.cardOne}>
+          <div className="flex items-center ">
             <span>2023</span>
-            <BiSolidRightArrow size={53} color={"#12182b"} />
+            <BiSolidRightArrow size={57} color={"#12182b"} className="ml-[-0.9rem]" />
+          </div>
+          <div className='pt-4 flex flex-col items-center justify-center gap-4'>
             <FaCircle size={30} color={"#FF4F00"} className={style.glow3} />
             <hr className={style.vertical_3} />
+          </div>  
             <div className={style.sepCont}>
               <div className={style.miniCard}>
                 <Typography variant="h4" className={style.freeText}>
@@ -209,10 +218,14 @@ const About_me = () => {
           </div>
 
           <div className={style.cardOne}>
+            <div className="flex items-center ">
             <span>2023</span>
-            <BiSolidRightArrow size={53} color={"#12182b"} />
-            <FaCircle size={30} color={"#FF4F00"} className={style.glow4} />
+            <BiSolidRightArrow size={53} color={"#12182b"} className="ml-[-0.9rem]" />
+            </div>
+            <div className='pt-4 flex flex-col items-center justify-center gap-4'>
+              <FaCircle size={30} color={"#FF4F00"} className={style.glow4} />
             <hr className={style.vertical_4} />
+            </div>
             <div className={style.sepCont}>
               <div className={style.miniCard}>
                 <Typography variant="h4" className={style.freeText}>
