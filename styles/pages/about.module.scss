@@ -1,6 +1,5 @@
 .container{
     width: 100%;
-
     margin-top: 0;
     display: flex;
     flex-direction: column;
@@ -38,8 +37,8 @@
     }
 
     .bodyText{
-        word-spacing: 0.2vw;
-        font-size: 1vw;
+        word-spacing: 0.2rem;
+        font-size: 1rem;
         font-weight: 550;
         color: #12182b;
         opacity: 0.9;
@@ -48,32 +47,34 @@
 
 .skillSection{
     width: 100%;
-    margin-top: 15rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
     padding-left: 8%;
     padding-right: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:2rem;
     background-color: #12182b;
 
 
     .skillDetails{
+        width: 80%;
         display: grid;
         grid-template-columns: repeat(4, 1fr); // 4 items per row
-        grid-gap: 2vw; // Gap between grid items
+        grid-gap: 2rem; // Gap between grid items
         align-items: center;
         justify-content: center;
         justify-items: center;
     }
     
     .cards{
-        width: 20vw;
-        height: 30vh;
+        width: 20rem;
+        height: 20rem;
         background-color: #292f42;
         text-align: center;
-        gap: 1vh;
+        gap: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -111,7 +112,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        // margin-top: -8rem;
+        padding-left:8%;
         gap: 3rem;
     }
 
@@ -119,14 +120,12 @@
         color: transparent;
         background-image: linear-gradient(to bottom,white 60%, #12182b 40%); /* Create a gradient */
         background-clip: text;
-        margin-top:5rem;
-        // position: relative;
-        // bottom: 6rem;  
         font-size: 3.5rem;
         font-weight: 700;
         font-style: oblique;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         z-index:0;
+        margin-top:-2.5rem;
     }
 }
 
@@ -136,12 +135,13 @@
     align-items:flex-start;
     justify-content:center;
     gap: 3rem;
-    background-color:gray;
 
     span{
-        width: 6vw;
-        padding-top:0.6rem;
-        padding-bottom:0.6rem;
+        
+        padding-left:1rem;
+        padding-right:1rem;
+        padding-top:0.4rem;
+        padding-bottom:0.4rem;
         text-align: center;
         font-size: 1.3rem;
         font-weight: 500;
@@ -155,12 +155,12 @@
     .vertical {
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 10rem; /* Set the height of the vertical line *//* Ensure no margin */
+        height: 14rem; /* Set the height of the vertical line *//* Ensure no margin */
     }
     .vertical_2{
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 10rem; /* Set the height of the vertical line */ /* Ensure no margin */
+        height: 13rem; /* Set the height of the vertical line */ /* Ensure no margin */
     }
     .vertical_3{
         border: none;
@@ -170,7 +170,7 @@
     .vertical_4{
         border: none;
         border-left: 1px solid black; /* Adjust the color and style as needed */
-        height: 10rem; /* Set the height of the vertical line *//* Ensure no margin */
+        height: 13rem; /* Set the height of the vertical line *//* Ensure no margin */
     }
 }
 
@@ -251,9 +251,9 @@
     }
 
     .bodyText{
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 550;
-        color: #12182b;
+        color: #81838b;
         opacity: 0.9;
     }
 }
