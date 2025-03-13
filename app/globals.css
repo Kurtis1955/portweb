@@ -16,7 +16,7 @@ body {
 }
 
 #services::before {
-  content: "Services";
+  content: "Projects";
   -webkit-text-stroke: 2px black;
 
   font-size: 1.7em !important;
