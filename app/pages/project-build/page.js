@@ -1,248 +1,103 @@
-import React from 'react'
-import { SiReact, SiFlutter} from "react-icons/si";
-import {FaGlobe, FaFileCode, FaNodeJs,FaMobileAlt} from "react-icons/fa";
-import { GiTeacher } from "react-icons/gi";
-import { IoLogoApple } from "react-icons/io";
-import { CiMobile2 } from "react-icons/ci";
-import { RiArrowRightLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { TbShieldCode } from "react-icons/tb";
-import { IoLogoAndroid } from "react-icons/io5";
-import { CgWebsite } from "react-icons/cg";
-import { IoLogoDesignernews } from "react-icons/io";
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Botech360 from "../../../public/360goldsuit.png"
+import Botech3602 from "../../../public/360goldsuit2.png"
+// import Botech from "../../../public/"
 
 const Projects_build = () => {
   return (
-    <div className='w-full px-32 py-14 bg-amber-200'>
-        <h1 id="services" className="text-center ">
-          Recent Projects
-        </h1>
+    <div className="w-full px-32 py-14 bg-amber-200">
+      <h1 id="services" className="text-center ">
+        Recent Projects
+      </h1>
 
-        <div className="w-full bg-amber-600 grid gap-8 grid-cols-2">
-          <div className="w-full bg-red-600 mb-6 shadow p-10 rounded-xl pl-4 ">
-            <div className="flex items-center gap-4 mb-6 ">
-              <FaMobileAlt size={62} color="#02007f" />{" "}
-              <h2 className="text-2xl font-[700]">
-                App <br /> Development
-              </h2>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
-                <IoLogoAndroid color="green" size={25} /> Android App{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <IoLogoApple color="black" size={25} /> IOS App{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <SiReact color="LIGHTBLUE" size={25} /> React Native{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <SiFlutter color="LIGHTBLUE" size={25} /> Flutter{" "}
-              </span>
-
-
-              <button
-                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-                px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
-              >
-                Read More <RiArrowRightLine />
-              </button>
-            </div>
-          </div>
-
-          <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
-            <div className="flex items-center gap-4 mb-6 ">
-              <FaGlobe size={62} color="#02007f" />{" "}
-              <h2 className="text-2xl font-[700]">
-                Web <br /> Development
-              </h2>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
-                <FaNodeJs color="green" size={25} /> NodeJs
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <TbBrandNextjs color="black" size={25} /> NextJS{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <SiReact color="LIGHTBLUE" size={25} /> React{" "}
-              </span>
-
-              <button
-                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-          px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
-              >
-                Read More <RiArrowRightLine />
-              </button>
-            </div>
-          </div>
-
-          <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
-            <div className="flex items-center gap-4 mb-6 ">
-              <GiTeacher size={62} color="#02007f" />{" "}
-              <h2 className="text-2xl font-[700]">
-               TECH <br /> Training
-              </h2>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
-                <CgWebsite  color="green" size={25} /> Web Development{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <FaFileCode  color="black" size={25} /> Frontend Development {" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <TbShieldCode color="LIGHTBLUE" size={25} /> Backend Development
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <IoLogoDesignernews  color="LIGHTBLUE" size={25} /> Graphic Designing
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                {" "}
-                <CiMobile2  color="LIGHTBLUE" size={25} />
-              Mobile App Development
-              </span>
-
-              <button
-                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-          px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
-              >
-                Read More <RiArrowRightLine />
-              </button>
-            </div>
-          </div>
-          <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
-            <div className="flex items-center gap-4 mb-6 ">
-              <GiTeacher size={62} color="#02007f" />{" "}
-              <h2 className="text-2xl font-[700]">
-               TECH <br /> Training
-              </h2>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
-                <CgWebsite  color="green" size={25} /> Web Development{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <FaFileCode  color="black" size={25} /> Frontend Development {" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <TbShieldCode color="LIGHTBLUE" size={25} /> Backend Development
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <IoLogoDesignernews  color="LIGHTBLUE" size={25} /> Graphic Designing
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                {" "}
-                <CiMobile2  color="LIGHTBLUE" size={25} />
-              Mobile App Development
-              </span>
-
-              <button
-                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-          px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
-              >
-                Read More <RiArrowRightLine />
-              </button>
-            </div>
-          </div>
-          <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
-            <div className="flex items-center gap-4 mb-6 ">
-              <GiTeacher size={62} color="#02007f" />{" "}
-              <h2 className="text-2xl font-[700]">
-               TECH <br /> Training
-              </h2>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
-                <CgWebsite  color="green" size={25} /> Web Development{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <FaFileCode  color="black" size={25} /> Frontend Development {" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <TbShieldCode color="LIGHTBLUE" size={25} /> Backend Development
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <IoLogoDesignernews  color="LIGHTBLUE" size={25} /> Graphic Designing
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                {" "}
-                <CiMobile2  color="LIGHTBLUE" size={25} />
-              Mobile App Development
-              </span>
-
-              <button
-                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-          px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
-              >
-                Read More <RiArrowRightLine />
-              </button>
-            </div>
-          </div>
-          <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
-            <div className="flex items-center gap-4 mb-6 ">
-              <GiTeacher size={62} color="#02007f" />{" "}
-              <h2 className="text-2xl font-[700]">
-               TECH <br /> Training
-              </h2>
-            </div>
-
-            <div className="flex flex-col gap-2">
-              <span className="flex gap-4 pl-4  items-center text-lg font-[200]">
-                <CgWebsite  color="green" size={25} /> Web Development{" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <FaFileCode  color="black" size={25} /> Frontend Development {" "}
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <TbShieldCode color="LIGHTBLUE" size={25} /> Backend Development
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                <IoLogoDesignernews  color="LIGHTBLUE" size={25} /> Graphic Designing
-              </span>
-
-              <span className="flex gap-4 pl-4 items-center text-lg font-[200]">
-                {" "}
-                <CiMobile2  color="LIGHTBLUE" size={25} />
-              Mobile App Development
-              </span>
-
-              <button
-                className="font-[100] text-lg flex justify-center items-center gap-5 bg-[#02007f]
-          px-2 py-2 rounded-sm mt-4 w-[9em] text-[white]"
-              >
-                Read More <RiArrowRightLine />
-              </button>
+      <div className="w-full bg-amber-600 grid gap-8 grid-cols-2">
+        <div className="w-full mb-6 shadow p-10 rounded-xl px-4 flex flex-col items-center justify-center ">
+          <Image src={Botech360} alt="gold suit image" />
+          <div className="w-full flex flex-col gap-2">
+            <h4>Type: Web Application</h4>
+            <h4>Technologies: Next.js, Tailwind CSS</h4>
+            <Link href={"/"}></Link>
+            <div>
+              Developing the 360GOLDSUITE platform was a transformative
+              experience that pushed my frontend expertise to new heights.
+              Leveraging Next.js, Tailwind CSS, and JavaScript, I crafted a
+              seamless, responsive, and visually appealing interface that
+              enhanced user interactions. The project aimed to revolutionize the
+              gold-buying industry by providing a paperless, intuitive platform
+              for managing transactions and accurately calculating gold values.
+              I focused on designing scalable UI components, optimizing
+              performance through lazy loading and code-splitting, and ensuring
+              a smooth user experience across all devices. Collaborating closely
+              with designers and backend developers, I streamlined API
+              integrations and enhanced accessibility. The challenges I tackled
+              throughout the development process strengthened my problem-solving
+              skills and attention to detail. This project not only added a
+              significant achievement to my portfolio but also deepened my
+              passion for creating impactful, user-centric web applications that
+              drive innovation.
             </div>
           </div>
         </div>
+
+        <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
+        <Image src={Botech3602} alt="gold suit image" />
+          <div className="flex flex-col gap-2">
+          <h4>Type: Web Application</h4>
+            <h4>Technologies: Next.js, Tailwind CSS</h4>
+            <Link href={"/"}></Link>
+          </div>
+        </div>
+
+        <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
+          <div className="flex items-center gap-4 mb-6 ">
+          
+            <h2 className="text-2xl font-[700]">
+              TECH <br /> Training
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-2">
+
+          </div>
+        </div>
+        <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
+          <div className="flex items-center gap-4 mb-6 ">
+            <h2 className="text-2xl font-[700]">
+              TECH <br /> Training
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-2">
+        
+          </div>
+        </div>
+        <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
+          <div className="flex items-center gap-4 mb-6 ">
+            <h2 className="text-2xl font-[700]">
+              TECH <br /> Training
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-2">
+
+          </div>
+        </div>
+        <div className="w-full mb-6 bg-red-600 shadow p-10 rounded-xl pl-4 ">
+          <div className="flex items-center gap-4 mb-6 ">
+
+            <h2 className="text-2xl font-[700]">
+              TECH <br /> Training
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-2">
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Projects_build;
