@@ -1,12 +1,12 @@
-import React from 'react';
-import style from '../page.module.scss'
+// import React from 'react';
+// import style from '../page.module.scss'
 
-function page(props) {
-    return (
-        <div className={style}>
+// function page(props) {
+//     return (
+//         <div className={style}>
             
-        </div>
-    );
-}
+//         </div>
+//     );
+// }
 
-export default page;
+// export default page;
