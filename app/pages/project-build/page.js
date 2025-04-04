@@ -20,7 +20,7 @@ import Imperial2 from "../../../public/imp2.png";
 
 const Projects_build = () => {
   return (
-    <div className="w-full px-32 py-14">
+    <div className="w-full px-32 py-14" id="projectspage">
       <h1 id="services" className="text-center ">
         Recent Projects
       </h1>
