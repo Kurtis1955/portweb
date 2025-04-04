@@ -57,7 +57,7 @@ const About_me = () => {
     },
   ];
   return (
-    <div className={style.container}>
+    <div className={style.container} id="aboutpage">
       <div className={style.aboutSection}>
         <Typography variant="h5" className={style.headText}>
           About
@@ -72,7 +72,7 @@ const About_me = () => {
             Figma, Penpot and professional graphics design with Photoshop.
             Experienced in cross-platform mobile development with React Native,
             and expanding backend knowledge with Java and Spring Boot framework.
-            A two-time hackathon winner holding a bachelor's degree in computer
+            A two-time hackathon winner holding a bachelor&apos;s degree in computer
             science, I thrive under pressure and excel in collaborative
             environments, driving innovation in fast-paced teams. Passionate
             about self-improvement, leadership, and mentoring, with a deep
@@ -129,17 +129,17 @@ const About_me = () => {
               </Typography>
               <Typography variant="body2" className={style.bodyText}>
                 {/* As a frontend developer with extensive experience in HTML and
-                CSS, I've had the privilege of crafting visually appealing and
+                CSS, I&apos;ve had the privilege of crafting visually appealing and
                 user-friendly websites and web applications. Leveraging my
                 expertise in semantic HTML markup and CSS styling techniques,
-                I've transformed design concepts into responsive and
+                I&apos;ve transformed design concepts into responsive and
                 pixel-perfect interfaces that engage users and deliver an
-                exceptional browsing experience across devices. Whether it's
+                exceptional browsing experience across devices. Whether it&apos;s
                 designing elegant layouts, creating intuitive navigation menus,
-                or optimizing performance for fast loading times, I'm passionate
+                or optimizing performance for fast loading times, I&apos;m passionate
                 about combining aesthetics with functionality to achieve the
-                client's goals. Collaborating closely with designers and backend
-                developers, I've played a key role in turning creative visions
+                client&apos;s goals. Collaborating closely with designers and backend
+                developers, I&apos;ve played a key role in turning creative visions
                 into reality, ensuring consistency in design and brand identity
                 throughout the development process. Additionally, staying
                 updated with the latest frontend frameworks and technologies,
@@ -189,9 +189,9 @@ const About_me = () => {
                   Frontend Developer, 360Botech Development
                 </Typography>
                 <Typography variant="body2" className={style.bodyText}>
-                  {/* With JavaScript, I've enhanced user interactions by
+                  {/* With JavaScript, I&apos;ve enhanced user interactions by
                   implementing dynamic features such as form validation,
-                  interactive elements, and smooth animations. I've also
+                  interactive elements, and smooth animations. I&apos;ve also
                   developed custom solutions for website functionality,
                   including sliders, modals, and navigation menus, using vanilla
                   JavaScript. Additionally, I have experience in optimizing
@@ -256,15 +256,15 @@ const About_me = () => {
                   with its component-based architecture and virtual DOM
                   rendering providing developers with powerful tools for
                   creating dynamic and responsive web applications.\n With
-                  Next.js, I've taken advantage of server-side rendering and
+                  Next.js, I&apos;ve taken advantage of server-side rendering and
                   static site generation to optimize performance and improve
                   SEO, delivering fast-loading and search engine-friendly
                   websites.\n Leveraging the latest features and best practices
-                  in React and Next.js, I've developed scalable and maintainable
+                  in React and Next.js, I&apos;ve developed scalable and maintainable
                   applications that meet the needs of clients and users alike.
-                  Whether it's building interactive user interfaces, integrating
+                  Whether it&apos;s building interactive user interfaces, integrating
                   with backend APIs, or optimizing performance for production
-                  deployment, I'm committed to delivering high-quality solutions
+                  deployment, I&apos;m committed to delivering high-quality solutions
                   that drive results. */}
                   As a Software Developer intern, I developed and maintained web
                   applications to enhance healthcare workflows, improve patient
@@ -332,7 +332,7 @@ const About_me = () => {
                   and component-driven design principles to maintain consistency
                   across projects. While focusing on frontend development, I
                   also began exploring backend technologies, particularly using
-                  Java. I'm currently learning backend fundamentals, including
+                  Java. I&apos;m currently learning backend fundamentals, including
                   API development, database management, and server-side logic.
                   This knowledge allows me to work more efficiently with
                   full-stack applications, bridging the gap between frontend and
