@@ -64,3 +64,10 @@
     font-weight: 550;
     text-decoration: none;
 }
+
+@media screen and (max-width: 360px) {
+  /* styles go here */
+  .navlink_Container{
+    display: none;
+  }
+}
